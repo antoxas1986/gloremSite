@@ -1,0 +1,30 @@
+<!doctype html>
+<html data-ng-app="glorem">
+
+<head>
+    <title>Welcome to Home Page</title>
+
+    <link rel="stylesheet" href="css/application.css"/>
+
+    <script src="lib/angularJS/angular.min.js"></script>
+    <script src="lib/angularJS/angular-route.min.js"></script>
+    <script src="lib/angularJS/angular-resource.min.js"></script>
+    <script src="lib/angularJS/angular-animate.min.js"></script>
+    <script src="lib/angularJS/angular-sanitize.min.js"></script>
+    <script src="lib/angularJS/angular-touch.min.js"></script>
+    <script src="lib/angularJS/ui-bootstrap-tpls-1.2.1.min.js"></script>
+
+
+    <script src="app/appMain.js"></script>
+    <script src="app/appRouts.js"></script>
+    <script src="app/index/index_controller.js"></script>
+
+</head>
+
+<body>
+    <div data-ng-include="'app/share/header.html'"></div>
+    <div data-ng-view></div>
+    <div data-ng-include="'app/share/footer.html'"></div>
+</body>
+
+</html>

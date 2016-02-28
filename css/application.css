@@ -1,0 +1,48 @@
+/*eef0f2-bbb5bd-e3bac6-bc9ec1-596475*/
+
+body,
+footer,
+header,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header .bar {
+    background-color: #bbb5bd;
+    width: 100%;
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: inline;
+}
+
+header li {
+    display: inline;
+}
+
+header .menu {
+    margin-left: 30%;
+    padding-top: 15px;
+}
+
+header a {
+    background-color: #EEF0F2;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+
+header a:hover {
+    background-color: #BC9EC1;
+}
+
+footer .main {
+    background-color: #596475;
+    width: 100%;
+    height: 50px;
+}
