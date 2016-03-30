@@ -39,10 +39,69 @@ header a {
 
 header a:hover {
     background-color: #BC9EC1;
+    text-decoration: none;
 }
 
 footer .main {
     background-color: #596475;
     width: 100%;
+    height: 200px;
+}
+
+.reviews {
+    width: 700px;
+    margin-left: 20%
+}
+
+.review {
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    float: left;
+    transition: opacity 0.5s;
+    margin: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.review img {
+    position: absolute;
+}
+
+div.review:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.short-review {
+    display: none;
+    position: relative;
+}
+
+.review:hover .short-review {
+    display: block;
+    position: relative;
+}
+
+.review-header {
     height: 50px;
+    width: 100%;
+    background-color: #bbb5bd;
+}
+
+.review-header h2 {
+    margin: auto;
+    padding-top: 1%;
+}
+
+.social img {
+    width: 40px;
+}
+
+.social-find {
+    text-align: right;
+    padding: 10px;
+}
+
+.lead-safe img {
+    width: 20%;
 }
